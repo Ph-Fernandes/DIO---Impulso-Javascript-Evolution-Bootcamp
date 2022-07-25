@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(243,243,243);
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 50%;
+    height: 100vh;
+}
+
+.instagram-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-photo img {
+    height: 50rem;
+}
+
+.block-login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.block-login .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.login img {
+    margin-top: 50px;
+    margin-bottom: 30px; 
+}
+
+.login .usuario, .senha {
+    display: flex;
+    width: 78%;
+    margin-bottom: 8px;
+}
+
+.login .usuario input, .senha input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.login .entrar {
+    display: flex;
+    width: 78%;
+}
+
+.login .entrar button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    background-color: #0095f6;
+}
+
+.login p {
+    padding-bottom: 15px;
+    color: black
+}
+
+.login p > a {
+    text-decoration: none;
+}
+
+.block-login .cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.cadastro a {
+    color: #0095f6;
+}
+
+.block-login .baixar-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.baixar-app p {
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.baixar-app .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.baixar-app .links #apple {
+    width: 10rem;
+    height: 3rem;
+}
+.baixar-app .links #google{
+    width: 10rem;
+    height: 3rem;
+}
